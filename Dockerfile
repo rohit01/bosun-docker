@@ -12,6 +12,7 @@ WORKDIR    /go
 RUN        go install bosun.org/cmd/bosun
 RUN        mkdir -p /bosun
 COPY       run.sh /bosun/
+RUN        chmod +x /bosun/run.sh
 
 EXPOSE     8070
 
