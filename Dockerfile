@@ -1,6 +1,6 @@
 FROM golang:1.6.2-alpine
 
-ENV        BOSUN_VERSION="0.5.0-rc2"
+ENV        BOSUN_VERSION="0.5.0-rc3"
 
 RUN        apk add --update go git
 RUN        go get -d bosun.org/cmd/bosun
